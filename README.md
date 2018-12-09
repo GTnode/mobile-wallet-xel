@@ -17,3 +17,10 @@ Signing is done client side before broadcasting transactions.
 ## Run in Browser
 
 https://gtnode.github.io/phone-wallet-xel/www/
+
+
+## Like to have this wallet on Android/Iphone ?
+
+* Support it 
+* Address    >  XEL-GXS5-XWXW-ULV7-9T97S
+* Public key > a50a1e9f810eaafa1d95c3b9b3ed1d699eefcd9aa8c9fbf4b886406ae7617c19
