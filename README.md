@@ -11,3 +11,4 @@ Signing is done client side before broadcasting transactions.
 
 
 ##Run in Browser
+https://gtnode.github.io/phone-wallet-xel/www/
