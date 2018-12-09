@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget xmlns = "http://www.w3.org/ns/widgets" xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.phonegap.shield" versionCode = "10" version = "1.0.0" >
+    <name>Shield XEL</name>
+    <description>
+        Blockchain DApp.
+    </description>
+
+	<plugin name="cordova-plugin-file" source="npm" />
+	<plugin name="cordova-plugin-splashscreen" source="npm" />
+	<plugin name="phonegap-plugin-barcodescanner" source="npm" />
+	<plugin name="cordova-plugin-whitelist" />
+
+	<preference name="SplashScreen" value="res/screen/android/shield.png" />
+	<preference name="AutoHideSplashScreen" value="true" />
+	<preference name="SplashScreenDelay" value="3000" />
+	<preference name="SplashMaintainAspectRatio" value="true" />
+
+	<access origin="*" />
+	<platform name="android">
+		<preference name="AndroidPersistentFileLocation" value="Compatibility" />
+		<icon src="res/android/shield.png" qualifier="ldpi" />
+		<icon src="res/android/shield.png" qualifier="mdpi" />
+		<icon src="res/android/shield.png" qualifier="hdpi" />
+		<icon src="res/android/shield.png" qualifier="xhdpi" />
+		<splash src="res/screen/android/shield.png" qualifier="ldpi" />
+		<splash src="res/screen/android/shield.png" qualifier="mdpi" />
+		<splash src="res/screen/android/shield.png" qualifier="hdpi" />
+		<splash src="res/screen/android/shield.png" qualifier="xhdpi" />
+	</platform>
+
+	<platform name="winphone">
+		<icon src="res/wp/shield.ico" />
+		<splash src="res/wp/shield.png" />
+	</platform>
+
+	<platform name="ios">
+		<icon src="res/ios/shield.png" width="180" height="180" />
+		<splash src="res/wp/shield.png" width="320" height="480" />
+	</platform>
+</widget>
