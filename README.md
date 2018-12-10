@@ -8,7 +8,7 @@
 
 
 
-# Shield XEL
+# Shield XEL Mobile Wallet
 Light weight Mobile application based on Javascript that connects to XEL blockchain. For more info on XEL blockchain visit https://xel.org
 
 This application supports following operations.
