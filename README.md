@@ -2,7 +2,7 @@
 <img src="res/android/shield.png" width="100">
 </p>
 
-[![Version](https://build.phonegap.com/apps/3402398/badge/1834250366/version.svg) [![Dependency Status](https://build.phonegap.com/apps/3402398/badge/1834250366/android.svg ) [![Windows](https://build.phonegap.com/apps/3402398/badge/1834250366/winphone.svg) [IOS](https://build.phonegap.com/apps/3402398/badge/1834250366/ios.svg ) [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+[![Version](https://build.phonegap.com/apps/3402398/badge/1834250366/version.svg) [![Dependency Status](https://build.phonegap.com/apps/3402398/badge/1834250366/android.svg ) [![Windows](https://build.phonegap.com/apps/3402398/badge/1834250366/winphone.svg) [![IOS](https://build.phonegap.com/apps/3402398/badge/1834250366/ios.svg ) [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
 
 # Shield XEL
 Light weight Mobile application based on Javascript that connects to XEL blockchain. For more info on XEL blockchain visit https://xel.org
