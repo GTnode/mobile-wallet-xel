@@ -26,6 +26,6 @@ https://gtnode.github.io/mobile-wallet-xel/www/
 * Public key > a50a1e9f810eaafa1d95c3b9b3ed1d699eefcd9aa8c9fbf4b886406ae7617c19
 
 ## Download Wallets
-<a href="https://build.phonegap.com/apps/3402398/install" title=""><img src="android-ios-windows-logo.png"  alt="Download" width="300" ></a>
+<a href="https://build.phonegap.com/apps/3402398/share" title=""><img src="android-ios-windows-logo.png"  alt="Download" width="300" ></a>
 
  <a href="https://build.phonegap.com/apps/3402398/badge/1834250366.svg" title=""><img src="https://build.phonegap.com/apps/3402398/badge/1834250366.svg"  alt="Version"></a> <a href="https://build.phonegap.com/apps/3402398/badge/1834250366/ios.svg" title=""><img src="https://build.phonegap.com/apps/3402398/badge/1834250366/ios.svg" alt="IOS"></a> <a href="https://build.phonegap.com/apps/3402398/badge/1834250366/version.svg" title=""><img src="https://build.phonegap.com/apps/3402398/badge/1834250366/version.svg"  alt="Version"></a> <a href="https://build.phonegap.com/apps/3402398/badge/1834250366/android.svg" title=""><img src="https://build.phonegap.com/apps/3402398/badge/1834250366/android.svg" alt="Android"></a> <a href="https://build.phonegap.com/apps/3402398/badge/1834250366/winphone.svg" title=""><img src="https://build.phonegap.com/apps/3402398/badge/1834250366/winphone.svg" alt="Windows"></a>  <a href="https://github.com/GTnode/mobile-wallet-xel/blob/master/LICENSE.txt" title=""><img src="http://img.shields.io/:license-mit-blue.svg" alt="license"></a>
