@@ -1304,18 +1304,6 @@ var NRS = (function (NRS, $, undefined) {
                     case "Invalid ordinary payment":
                         return $.t("error_invalid_ordinary_payment");
                         break;
-                    case "Missing alias name":
-                        return $.t("error_missing_alias_name");
-                        break;
-                    case "Transferring aliases to Genesis account not allowed":
-                        return $.t("error_alias_transfer_genesis");
-                        break;
-                    case "Ask order already filled":
-                        return $.t("error_ask_order_filled");
-                        break;
-                    case "Bid order already filled":
-                        return $.t("error_bid_order_filled");
-                        break;
                     case "Only text encrypted messages allowed":
                         return $.t("error_encrypted_text_messages_only");
                         break;
@@ -1324,12 +1312,6 @@ var NRS = (function (NRS, $, undefined) {
                         break;
                     case "Only text public messages allowed":
                         return $.t("error_public_text_messages_only");
-                        break;
-                    case "Purchase does not exist yet or not yet delivered":
-                        return $.t("error_purchase_delivery");
-                        break;
-                    case "Purchase does not exist or is not delivered or is already refunded":
-                        return $.t("error_purchase_refund");
                         break;
                     case "Recipient account does not have a public key, must attach a public key announcement":
                         return $.t("error_recipient_no_public_key_announcement");
@@ -1350,45 +1332,7 @@ var NRS = (function (NRS, $, undefined) {
                         return $.t("error_public_key_already_announced");
                         break;
                     default:
-                        if (response.errorDescription.indexOf("Alias already owned by another account") != -1) {
-                            return $.t("error_alias_owned_by_other_account");
-                        } else if (response.errorDescription.indexOf("Invalid alias sell price") != -1) {
-                            return $.t("error_invalid_alias_sell_price");
-                        } else if (response.errorDescription.indexOf("Alias hasn't been registered yet") != -1) {
-                            return $.t("error_alias_not_yet_registered");
-                        } else if (response.errorDescription.indexOf("Alias doesn't belong to sender") != -1) {
-                            return $.t("error_alias_not_from_sender");
-                        } else if (response.errorDescription.indexOf("Alias is owned by account other than recipient") != -1) {
-                            return $.t("error_alias_not_from_recipient");
-                        } else if (response.errorDescription.indexOf("Alias is not for sale") != -1) {
-                            return $.t("error_alias_not_for_sale");
-                        } else if (response.errorDescription.indexOf("Invalid alias name") != -1) {
-                            return $.t("error_invalid_alias_name");
-                        } else if (response.errorDescription.indexOf("Invalid URI length") != -1) {
-                            return $.t("error_invalid_alias_uri_length");
-                        } else if (response.errorDescription.indexOf("Invalid ask order") != -1) {
-                            return $.t("error_invalid_ask_order");
-                        } else if (response.errorDescription.indexOf("Invalid bid order") != -1) {
-                            return $.t("error_invalid_bid_order");
-                        } else if (response.errorDescription.indexOf("Goods price or quantity changed") != -1) {
-                            return $.t("error_dgs_price_quantity_changed");
-                        } else if (response.errorDescription.indexOf("Invalid digital goods price change") != -1) {
-                            return $.t("error_invalid_dgs_price_change");
-                        } else if (response.errorDescription.indexOf("Invalid digital goods refund") != -1) {
-                            return $.t("error_invalid_dgs_refund");
-                        } else if (response.errorDescription.indexOf("Purchase does not exist yet, or already delivered") != -1) {
-                            return $.t("error_purchase_not_exist_or_delivered");
-                        } else if (response.errorDescription.match(/Goods.*not yet listed or already delisted/)) {
-                            return $.t("error_dgs_not_listed");
-                        } else if (response.errorDescription.match(/Delivery deadline has already expired/)) {
-                            return $.t("error_dgs_delivery_deadline_expired");
-                        } else if (response.errorDescription.match(/Invalid effective balance leasing:.*recipient account.*not found or no public key published/)) {
-                            return $.t("error_invalid_balance_leasing_no_public_key");
-                        } else if (response.errorDescription.indexOf("Invalid effective balance leasing") != -1) {
-                            return $.t("error_invalid_balance_leasing");
-                        } else if (response.errorDescription.match(/Wrong buyer for.*expected:.*/)) {
-                            return $.t("error_wrong_buyer_for_alias");
-                        } else {
+                      {
                             return response.errorDescription;
                         }
 

@@ -1,7 +1,7 @@
 
 var shield = (function(shield, $, undefined) {
 
-shield.FEE_NQT = "100000000";
+shield.FEE_NQT = "10000000";
 var httpsConnDone = false;
 
 shield.globalPassPhrase = "";

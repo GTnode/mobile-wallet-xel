@@ -13,11 +13,6 @@ shield.SUBTYPE_COLORED_COINS_BID_ORDER_CANCELLATION = 5;
 shield.SUBTYPE_MESSAGING_VOTE_CASTING = 3;
 shield.NO_VOTE_VALUE = -128;	//Byte.MIN_VALUE
 shield.PAYMENT = "Payment";
-shield.BUY_ORDER = "Buy Order";
-shield.SELL_ORDER = "Sell Order";
-shield.BUY_CANCEL = "Cancel Buy Order";
-shield.SELL_CANCEL = "Cancel Sell Order";
-shield.VOTE = "Vote";
 shield.MESSAGE = "Message";
 shield.ENCRYPTED_MESSAGE = "encryptedMessage";
 shield.PUBLIC_KEY_ANN = "publicKeyAnnouncement";
@@ -166,7 +161,7 @@ shield.placeAssetOrder_BuildHex = function(type, asset, quantity, price, order, 
 	hexTrans = hexTrans.concat(converters.byteArrayToHexString([5]));
 	hexTrans = hexTrans.concat(publicKey);
 	var nxtAddr = new NxtAddress();
-	nxtAddr.set("1739068987193023818"); //creator ID, Genesis account id
+	nxtAddr.set("XEL-B7G6-TD4T-RVXR-8KEQR"); //creator ID, Genesis account id
 	var creatorID = (new BigInteger(nxtAddr.account_id())).toByteArray().reverse();
 	creatorID = creatorID.concat(pad( LONG_BYTE_LENGTH - creatorID.length, 0 ));
 	hexTrans = hexTrans.concat(converters.byteArrayToHexString(creatorID.slice(0, LONG_BYTE_LENGTH)));
@@ -230,7 +225,7 @@ shield.castVote_BuildHex = function(pollid, vote, callbackFunc){
 	hexTrans = hexTrans.concat(converters.byteArrayToHexString([5]));
 	hexTrans = hexTrans.concat(publicKey);
 	var nxtAddr = new NxtAddress();
-	nxtAddr.set("1739068987193023818"); //creator ID, Genesis account id
+	nxtAddr.set("XEL-B7G6-TD4T-RVXR-8KEQR"); //creator ID, Genesis account id
 	var creatorID = (new BigInteger(nxtAddr.account_id())).toByteArray().reverse();
 	creatorID = creatorID.concat(pad( LONG_BYTE_LENGTH - creatorID.length, 0 ));
 	hexTrans = hexTrans.concat(converters.byteArrayToHexString(creatorID.slice(0, LONG_BYTE_LENGTH)));
@@ -285,7 +280,7 @@ shield.build = function(type, subType){
 	hexTrans = hexTrans.concat(converters.byteArrayToHexString([5]));
 	hexTrans = hexTrans.concat(publicKey);
 	var nxtAddr = new NxtAddress();
-	nxtAddr.set("1739068987193023818"); //creator ID, Genesis account id
+	nxtAddr.set("XEL-B7G6-TD4T-RVXR-8KEQR"); //creator ID, Genesis account id
 	var creatorID = (new BigInteger(nxtAddr.account_id())).toByteArray().reverse();
 	creatorID = creatorID.concat(pad( LONG_BYTE_LENGTH - creatorID.length, 0 ));
 	hexTrans = hexTrans.concat(converters.byteArrayToHexString(creatorID.slice(0, LONG_BYTE_LENGTH)));

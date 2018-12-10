@@ -102,7 +102,7 @@ if(shield.ADDRESS != "" && shield.ADDRESS != undefined ){
 				if(nxtAddress == shield.globalAddress)
 				{
 					if(transType.transtype == shield.PAYMENT)
-						transType.transtype = "-" + NRS.convertToNXT(trans.amountNQT) + " NXT";
+						transType.transtype = "-" + NRS.convertToNXT(trans.amountNQT) + " XEL";
 					transType.icon += " assertive";
 					fromAdd = address.toString();
 					toAddr = addressRecipient.toString();
@@ -110,7 +110,7 @@ if(shield.ADDRESS != "" && shield.ADDRESS != undefined ){
 				else
 				{
 					if(transType.transtype == shield.PAYMENT)
-						transType.transtype = "+" + NRS.convertToNXT(trans.amountNQT) + " NXT";
+						transType.transtype = "+" + NRS.convertToNXT(trans.amountNQT) + " XEL";
 					transType.icon += " balanced";
 					fromAdd = address.toString();
 					toAddr = addressRecipient.toString();
