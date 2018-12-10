@@ -1,7 +1,7 @@
 
 var shield = (function(shield, $, undefined) {
 //var peers = ['explorer.xel.org', 'mr-hyde.xeline.org', 'dr-jekyll.xeline.org'];
-var peers = ['explorer.xel.org', 'mr-hyde.xeline.org', 'dr-jekyll.xeline.org' ];
+var peers = ['explorer.xel.org', 'mr-hyde.xeline.org', 'dr-jekyll.xeline.org', 'wallet.xel.org' ];
 
 var peerTraverse = 0;
 var HTTP = "http://";

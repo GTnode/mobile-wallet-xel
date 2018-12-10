@@ -58,7 +58,7 @@ $rootScope.sendNxtCallBack = function(msg)
 	}
 
 	var resultPopup = $ionicPopup.show({
-	title: 'Send Nxt',
+	title: 'Send XEL',
 	subTitle: 'Result: Payment ' + msg,
 	scope: $scope,
 	buttons: [
@@ -75,7 +75,7 @@ $rootScope.sendNxtCallBack = function(msg)
 
 $scope.sendNxtBtnClick = function()
 {
-	inputOptions = "Recipient: " + $scope.recipient_address.text + "<br>Amount: " + $scope.amtNxt.text + " Nxt<br>Fee: 1 Nxt";
+	inputOptions = "Recipient: " + $scope.recipient_address.text + "<br>Amount: " + $scope.amtNxt.text + " XEL<br>Fee: 0,1 XEL";
 	var inputAmt = parseFloat($scope.amtNxt.text);
 	var availableBal = parseFloat($scope.balance);
 
@@ -93,7 +93,7 @@ $scope.sendNxtBtnClick = function()
 	if(!isNaN($scope.amtNxt.text) && inputAmt < availableBal)
 	{
 		var confirmPopup = $ionicPopup.confirm({
-			title: 'Confirm Send NXT',
+			title: 'Confirm Send XEL',
 			template: inputOptions
 		});
 		confirmPopup.then(function(res) {
@@ -110,7 +110,7 @@ $scope.sendNxtBtnClick = function()
 		{
 			var alertPopup = $ionicPopup.alert({
 				title: 'Alert!',
-				template: 'Incorrect Nxt Amount'
+				template: 'Incorrect XEL Amount'
 			});
 			alertPopup.then(function(res) {
 			});
