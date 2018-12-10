@@ -1,8 +1,11 @@
 <p align="center"> 
-<img src="res/android/shield.png" width="100">
+  <img src="res/android/shield.png" width="100">
 </p>
 
-[![Version](https://build.phonegap.com/apps/3402398/badge/1834250366/version.svg) [![Dependency Status](https://build.phonegap.com/apps/3402398/badge/1834250366/android.svg ) [![Windows](https://build.phonegap.com/apps/3402398/badge/1834250366/winphone.svg) [![IOS](https://build.phonegap.com/apps/3402398/badge/1834250366/ios.svg ) [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+ <a href="#patched-fonts" title=""><img src="https://build.phonegap.com/apps/3402398/badge/1834250366/version.svg"  alt="Version"></a> <a href="#patched-fonts" title=""><img src="https://build.phonegap.com/apps/3402398/badge/1834250366/android.svg" alt="Android"></a> <a href="#patched-fonts" title=""><img src="https://build.phonegap.com/apps/3402398/badge/1834250366/winphone.svg" alt="Windows"></a> <a href="#patched-fonts" title=""><img src="https://build.phonegap.com/apps/3402398/badge/1834250366/ios.svg" alt="IOS"></a> <a href="#patched-fonts" title=""><img src="http://img.shields.io/:license-mit-blue.svg" alt="license"></a>
+ 
+
+
 
 # Shield XEL
 Light weight Mobile application based on Javascript that connects to XEL blockchain. For more info on XEL blockchain visit https://xel.org
