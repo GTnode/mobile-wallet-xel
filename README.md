@@ -1,6 +1,7 @@
 <p align="center"> 
 <img src="res/android/shield.png" width="100">
 </p>
+<img src=https://build.phonegap.com/apps/3402398/badge/1834250366/version.svg /><img src=https://build.phonegap.com/apps/3402398/badge/1834250366/android.svg /><img src=https://build.phonegap.com/apps/3402398/badge/1834250366/winphone.svg />
 
 # Shield XEL
 Light weight Mobile application based on Javascript that connects to XEL blockchain. For more info on XEL blockchain visit https://xel.org
