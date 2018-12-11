@@ -161,7 +161,7 @@ shield.placeAssetOrder_BuildHex = function(type, asset, quantity, price, order, 
 	hexTrans = hexTrans.concat(converters.byteArrayToHexString([5]));
 	hexTrans = hexTrans.concat(publicKey);
 	var nxtAddr = new NxtAddress();
-	nxtAddr.set("XEL-B7G6-TD4T-RVXR-8KEQR"); //creator ID, Genesis account id
+	nxtAddr.set("13769421951337852026"); //creator ID, Genesis account id
 	var creatorID = (new BigInteger(nxtAddr.account_id())).toByteArray().reverse();
 	creatorID = creatorID.concat(pad( LONG_BYTE_LENGTH - creatorID.length, 0 ));
 	hexTrans = hexTrans.concat(converters.byteArrayToHexString(creatorID.slice(0, LONG_BYTE_LENGTH)));
@@ -225,7 +225,7 @@ shield.castVote_BuildHex = function(pollid, vote, callbackFunc){
 	hexTrans = hexTrans.concat(converters.byteArrayToHexString([5]));
 	hexTrans = hexTrans.concat(publicKey);
 	var nxtAddr = new NxtAddress();
-	nxtAddr.set("XEL-B7G6-TD4T-RVXR-8KEQR"); //creator ID, Genesis account id
+	nxtAddr.set("13769421951337852026"); //creator ID, Genesis account id
 	var creatorID = (new BigInteger(nxtAddr.account_id())).toByteArray().reverse();
 	creatorID = creatorID.concat(pad( LONG_BYTE_LENGTH - creatorID.length, 0 ));
 	hexTrans = hexTrans.concat(converters.byteArrayToHexString(creatorID.slice(0, LONG_BYTE_LENGTH)));
@@ -280,7 +280,7 @@ shield.build = function(type, subType){
 	hexTrans = hexTrans.concat(converters.byteArrayToHexString([5]));
 	hexTrans = hexTrans.concat(publicKey);
 	var nxtAddr = new NxtAddress();
-	nxtAddr.set("XEL-B7G6-TD4T-RVXR-8KEQR"); //creator ID, Genesis account id
+	nxtAddr.set("13769421951337852026"); //creator ID, Genesis account id
 	var creatorID = (new BigInteger(nxtAddr.account_id())).toByteArray().reverse();
 	creatorID = creatorID.concat(pad( LONG_BYTE_LENGTH - creatorID.length, 0 ));
 	hexTrans = hexTrans.concat(converters.byteArrayToHexString(creatorID.slice(0, LONG_BYTE_LENGTH)));
